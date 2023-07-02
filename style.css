@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Source Code Pro", monospace;
   background-color: #03001c;
+
 }
 
 
@@ -160,11 +161,95 @@ nav a img {
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .cs h3{
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
+  padding-bottom: 30px;
 }
 
+.cs p{
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+  border-bottom: 4px solid #eb455f;
+}
+
+.cs p i{
+  font-size: 28px;
+}
+
+.cs p i:hover
+,.cs h3 i:hover{
+  color: #eb455f;
+  transition: .3s;
+
+}
+
+/* ------Projects----- */
+#project {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#project h2 {
+  font-size: 40px;
+  color: #fff;
+  /* text-decoration: underline; */
+}
+
+/* ------Contact----- */
+
+#contact {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#contact h2 {
+  font-size: 40px;
+  color: #fff;
+  /* text-decoration: underline; */
+}
+
+/* --------Footer-------- */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.foooter h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.footer .icons{
+  padding: 30px;
+  font-size: 25px;
+}
+.footer .icons i:hover{
+  color: #eb455f;
+  transition: .3s;
+}
+
+.foot{
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
