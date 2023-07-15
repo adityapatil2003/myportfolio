@@ -3,13 +3,12 @@
   padding: 0;
   font-family: "Source Code Pro", monospace;
   background-color: #03001c;
-
 }
-
+/* 
 :root{
   --primary:#000 ;
   --secondary:#fff;
-}
+} */
 
 /* ------Home----- */
 
@@ -49,7 +48,7 @@ nav a img {
   font-size: 15px;
 }
 
-.nav-links ul li i{
+.nav-links ul li i {
   color: #fff;
   font-size: 25px;
 }
@@ -114,38 +113,38 @@ nav a img {
   justify-content: space-between;
 }
 
-.about-col{
+.about-col {
   flex-basis: 55%;
   margin-bottom: 5%;
   /* padding: 20px 12px; */
   box-sizing: border-box;
 }
 
-.about-col img{
-  width: 75% ;
+.about-col img {
+  width: 75%;
 }
-.intro{
+.intro {
   text-align: left;
 }
-.intro h3{
+.intro h3 {
   font-size: 40px;
   color: #fff;
   margin-bottom: 8px;
 }
-.intro h4{
+.intro h4 {
   font-size: 22px;
   color: #eb455f;
   margin-bottom: 8px;
 }
 
-.intro p{
+.intro p {
   font-size: 18px;
   color: #fff;
   margin-bottom: 40px;
 }
 
-.intro a .fa{
-  padding-right:15px;
+.intro a .fa {
+  padding-right: 15px;
   background: transparent;
 }
 
@@ -165,7 +164,7 @@ nav a img {
   /* text-decoration: underline; */
 }
 
-.skill-col{
+.skill-col {
   flex-basis: 31%;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -173,13 +172,13 @@ nav a img {
   /* border: 1px solid #fff; */
 }
 
-.cs h3{
+.cs h3 {
   color: #fff;
   font-size: 25px;
   padding-bottom: 30px;
 }
 
-.cs p{
+.cs p {
   color: #fff;
   padding: 10px;
   text-align: left;
@@ -188,15 +187,14 @@ nav a img {
   border-bottom: 4px solid #eb455f;
 }
 
-.cs p i{
+.cs p i {
   font-size: 28px;
 }
 
-.cs p i:hover
-,.cs h3 i:hover{
+.cs p i:hover,
+.cs h3 i:hover {
   color: #eb455f;
-  transition: .3s;
-
+  transition: 0.3s;
 }
 
 /* ------Projects----- */
@@ -214,6 +212,34 @@ nav a img {
   /* text-decoration: underline; */
 }
 
+.project-col {
+  flex-basis: 31%;
+  background: #18122b;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.project-col i{
+  background-color: transparent;
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+}
+
+.project-info{
+  margin: 25px 0 10px;
+}
+
+.project-info h5{
+  font-weight: 40px;
+
+}
+
 /* ------Contact----- */
 
 #contact {
@@ -229,34 +255,27 @@ nav a img {
   color: #fff;
   /* text-decoration: underline; */
 }
-
-.contact-us{
-  width: 80%;
-  margin: auto;
-
-}
-
-.contact-col{
+.contact-col {
   flex-basis: 48%;
   margin-bottom: 30px;
 }
-.contact-col div{
+.contact-col div {
   display: flex;
   align-items: center;
   text-align: left;
   margin-bottom: 40px;
 }
-.contact-col div .fa{
+.contact-col div .fa {
   font-size: 28px;
   color: #fff;
   margin: 20px;
   margin-right: 30px;
 }
-.contact-col div p{
+.contact-col div p {
   padding: 0;
 }
 
-.contact-col div h5{
+.contact-col div h5 {
   font-size: 20px;
   margin-bottom: 5px;
   color: #fff;
@@ -264,7 +283,7 @@ nav a img {
 }
 
 .contact-col input,
-.contact-col textarea{
+.contact-col textarea {
   width: 80%;
   padding: 15px;
   margin: 10px 0;
@@ -272,11 +291,11 @@ nav a img {
   color: #fff;
   border: none;
   border-radius: 5px;
-  background: #18122B;
+  background: #18122b;
 }
 
-.contact-col .btn{
- color: #fff;
+.contact-col .btn {
+  color: #fff;
 }
 /* --------Footer-------- */
 
@@ -296,16 +315,16 @@ nav a img {
   font-weight: 600;
 }
 
-.footer .icons{
+.footer .icons {
   padding: 30px;
   font-size: 25px;
 }
-.footer .icons i:hover{
+.footer .icons i:hover {
   color: #eb455f;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.foot{
+.foot {
   color: #fff;
   text-align: center;
   padding: 10px;
