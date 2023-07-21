@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aditya Patil</title>
-    <link rel="icon" href="./Images/mylogo.png" type="image/png">
+    <link rel="icon" href="./Images/mylogo.png" type="image/png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,17 +25,23 @@
 
     <section id="home">
       <nav id="navbar">
-        <a href="#home"><img src="../Porfolio/Images/logo.png" alt="Logo" /></a>
-        <div class="nav-links sticky" id="navLinks">
+        <a href="#home"><img src="logo.png" alt="Logo" /></a>
+       
+        <div class="nav-links" id="navLinks">
+         
+
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Skills</a></li>
             <li><a href="#project">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><i class="fa fa-sun"></i></li>
           </ul>
         </div>
+        <i class="ham fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <i class="ham fa-solid fa-bars" onclick="showMenu()"></i>
+
+        <i class="fa fa-sun"></i>
       </nav>
       <div class="text-box">
         <h3>Hello, I'am</h3>
@@ -46,13 +52,15 @@
     </section>
     <hr />
 
+    @media screen (max-width:760px){ }
+
     <!-- -----About---- -->
 
     <section id="about">
       <h2>About Me</h2>
       <div class="row">
         <div class="about-col">
-          <img src="../Porfolio/Images/person.png" alt="Photo" />
+          <img src="person.png" alt="Photo" />
         </div>
         <div class="above-col intro">
           <h3>Hi! I'am Aditya Patil</h3>
@@ -112,8 +120,8 @@
           <i class="fa fa-prescription"></i>
           <div class="project-info">
             <h5>Project Name</h5>
-          <h6>DBMS</h6>
-          <p>Sept-Nov</p>
+            <h6>DBMS</h6>
+            <p>Sept-Nov</p>
           </div>
         </div>
       </div>
@@ -172,7 +180,7 @@
 
     <section class="footer">
       <p>&copy2023 Aditya Patil. <br />All Rights Reserved</p>
-      <a href="#home"><img src="./Images/logo.png" height="200px" alt="Logo" /></a>
+      <a href="#home"><img src="logo.png" height="200px" alt="Logo" /></a>
 
       <div class="icons">
         <i class="fa-brands fa-facebook"></i>

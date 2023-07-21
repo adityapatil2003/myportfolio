@@ -8,3 +8,13 @@ window.addEventListener('scroll', function(){
 
     }
 })
+
+// ------Hamburger Menu-------
+var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.top = "170px";
+      }
+      function hideMenu() {
+        navLinks.style.top = "-200px";
+      }
