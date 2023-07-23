@@ -14,24 +14,31 @@
 }
 
 .light-theme{
-  --primary-color:#fff ;
-  --secondary-color:#fff;
+  --primary-color:#ffffff ;
+  --secondary-color:#ffffff;
   --tertiary-color:#000000;
   --quaternery-color:lightgrey;
 
 
 }
 
-body .fa-arrow-up{
+/* -------Go to top arrow------ */
+body #top{
   position: fixed;
-  top: 90vh;
+  top: 90%;
   left: 94%;
   background-color: #eb455f;
   padding: 10px;
   color: var(--tertiary-color);
   font-size: 20px;
   border-radius: 6px;
-  transition: .1s;
+  transition: .4s;
+}
+
+@media (max-width:700px){
+  body .fa-arrow-up{
+    left: 90%;
+  }
 }
 /* ------Home----- */
 

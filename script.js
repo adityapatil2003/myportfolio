@@ -28,15 +28,16 @@ var navLinks = document.getElementById("navLinks");
 let footerDate = document.getElementById("footer-date")
 footerDate.innerHTML = new Date().getFullYear();
 
-// ----------Got to top----------
+// ----------Got to top arrow----------
 
 let go_up = document.getElementById('top')
 
 window.addEventListener('scroll', function(){
   if(window.scrollY > 500){
-    go_up.classList.add('fa-arrow-up')
+    go_up.style.left="94%"
   }else{
-    go_up.classList.remove('fa-arrow-up')
+    go_up.style.left="120%"
+
   }
 })
 
